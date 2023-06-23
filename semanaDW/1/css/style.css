@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(33, 33, 34);
+    transition: 250ms;  
+}
+
+#logo{
+    width: 5vw;
+    height: 10vh;
+    color: beige;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.1s;
+}
+
+header{
+    margin: 3vh;
+    background-color: rgb(21, 21, 22);
+    padding: 3vw;
+    border-radius: 5vh; border-radius: 3vw;
+    transition: 0.1s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.menu{
+    display: flex;
+
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    border-radius: 1vw;
+    padding: 1vw;
+    border: solid beige 0.2vw;
+    transition: 0.1s;
+    background-color: rgb(13, 14, 15);
+    max-height: 10vh;
+    text-align: center;
+    font-size: 2vw;
+    display: grid;
+    margin-left: 2vw;
+    align-items: center;
+    justify-items: center;
+}
+
+a:hover{
+    background-color: rgb(172, 172, 172);
+    color: rgb(13, 14, 15);
+}
+
+footer{
+    margin: 0px;
+    background-color: rgb(21, 21, 22);
+    padding: 3vw;
+    transition: 0.1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98.8vw;
+    
+}
+
+.bye{
+    width: 5vw;
+    height: 10vh;
+    color: beige;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.1s;
+    text-align: center;
+    display: flex;
+}
+
+#img{
+    width: 30vw;
+    height: 30vh;
+    border-radius: 2vw;
+}
+
+main{
+    display: flex;
+    margin: 3vh;
+    margin-bottom: 4vh;
+    background-color: rgb(21, 21, 22);
+    padding: 3vw;
+    border-radius: 3vw;
+    transition: 0.1s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    margin: 3vh;
+    background-color: rgb(19, 19, 19);
+    padding: 3vw;
+    border-radius: 3vw;
+    transition: 0.1s;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 2vw;
+}
+
+.buttons{
+    display: flex;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    background-color: rgba(3, 3, 3, 0.705);
+    bottom: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .4s;
+    --transform: translateY(-100vh);
+    --transition: transform .4s .5s;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .4s;
+    --transform: translateY(0);
+    --transition: transform .4s .4s;
+}
+
+.contenedor{
+    margin: auto;
+    width: auto;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    background-color: rgb(19, 19, 19);
+    border-radius: 2vw;
+    padding: 3vw;
+    gap: 1vw;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition: var(--transition);
+
+    justify-content: space-between;   
+}
+
+#cerrar{
+    margin-left: 80vw;
+    margin-bottom: 35vw;
+    width: 5vw;
+    height: 10vh;
+    border-radius: 10vw;
+    padding: 0.5vw;
+    position: fixed;
+    opacity: 0.5;
+
+}
+
+#cerrar:hover{
+    background-color: rgb(8, 8, 8);
+}
+
+.titulo_modal{
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    font-size: 2vw;
+}
+
+#asunto{
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    height: 5vh;
+    border: 0px;
+    box-shadow: 0vw 1vw 1vw rgba(0, 0, 0, 0.349);
+    margin-bottom: 0.7vw;
+}
+
+#descripción{
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    height: 30vh;
+    border: 0px;
+    box-shadow: 0vw 1vw 1vw rgba(0, 0, 0, 0.349);   
+    margin-bottom: 1vw;
+}
+
+.mail{
+    display:grid;
+    margin: 2vw;
+    width: 40vw;
+}
+
+#enviar{
+    width: 100%;
+    margin-left: 0px;
+    height: 7.5vh;
+    font-size: 1.5vw;
+}
+
+.contact{
+    display: flex;
+    align-items: flex-end;
+}
+
+#write{
+    height: 50vh;
+    width: 40vw;
+}
+

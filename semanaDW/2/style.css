@@ -1,0 +1,70 @@
+html{
+    width: 100%;
+}
+
+body{
+    background-image:url("/semanaDW/3/media/bg.png");
+    background-size: cover;
+    margin: 0px;
+    width: 100%;
+}
+
+header{
+    width: 95.5vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+    padding-left: 2vw;
+    transition: 0.5s;
+}
+
+header:hover{
+    background-color: #252525;
+    color: #f2f2f2;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vw;
+    height: 80vh;
+}
+
+.text{
+    display: grid;
+    margin: 2vw;
+    font-family: sans-serif;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2.5vw;
+}
+
+span{
+    font-weight: 550;
+    font-size: 2vw;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(24, 26, 26);
+    font-family: sans-serif;
+    margin: 2vw;
+}
+
+a:hover{
+    color: beige;
+}
+
+#shoes{
+    height: 80vh;
+    position: fixed;
+    right: -25vh;
+}
+
+b{
+    color: #ffbd59;
+}
