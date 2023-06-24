@@ -3,20 +3,20 @@ html{
 }
 
 body{
-    background-image:url("/semanaDW/3/media/bg.png");
+    background-image:url("/semanaDW/2_menu_desplegable/media/bg.png");
     background-size: cover;
     margin: 0px;
     width: 100%;
 }
 
 header{
-    width: 95.5vw;
+    width: 97vw;
     height: 8vh;
     display: flex;
     align-items: center;
     padding: 1vw;
     padding-left: 2vw;
-    transition: 0.5s;
+    transition: 0.1s;
 }
 
 header:hover{
@@ -62,9 +62,41 @@ a:hover{
 #shoes{
     height: 80vh;
     position: fixed;
-    right: -25vh;
+    right: -10vw;
+    max-width: 45vw;
 }
 
 b{
     color: #ffbd59;
+}
+
+.elemento{
+    height: max-content;
+}
+
+.contenido{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    background: #252525;
+}
+
+.elemento:hover .contenido {
+    display: flex;
+    position: fixed;
+    top:50px;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: larger;
+    color: #f2f2f2;
+    height: 30px;
+    line-height: 30px;
+}
+
+a:hover{
+    background-color: grey;
 }
