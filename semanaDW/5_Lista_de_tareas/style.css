@@ -1,0 +1,49 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 97vw;
+    display: flex;
+}
+
+#presentacion{
+    display: flex;
+    text-align: center;
+    padding-top: 3%;
+    background-color: #e4e4e4;
+    width: 20vw;
+    height: 94vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+#photo{
+    height: 34vh;
+    width: 17vw;
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+
+ul{
+    margin-top: 30%;
+    display: grid;
+    margin-right: 20%;
+    gap: 40%;
+    max-height: 15vh;
+}
+
+li{ 
+    list-style: none;
+}
+
+#ToDo{
+    position: absolute;
+    margin-top: 43%;
+    color: #708090;
+    font-weight: bolder;
+    font-size: 110%;
+}
