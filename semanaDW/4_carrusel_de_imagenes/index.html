@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de imagenes</title>
+    <link rel="stylesheet" href="/semanaDW/4_carrusel_de_imagenes/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <h2 id="logo">LOGO</h2>
+        <div class="menu">
+            <a href="#header" id="inicio">Inicio</a>
+            <a href="#main">Imágenes</a>
+            <a href="#" >Contacto</a> 
+        </div>
+    </header>
+
+    <section id="presentacion">
+        <img id="she" src="/semanaDW/4_carrusel_de_imagenes/media/she.png" alt="perfil">
+        <h2>Hola, mi nombre es Angel</h2>
+        <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, cupiditate inventore pariatur, reprehenderit 
+            consectetur, architecto illo omnis veniam quaerat dolorum ipsa deleniti ullam voluptas. 
+            Dolor labore fuga quam qui quis?</span>
+        <a id="Trabajos" href="#main">Algunos de mis trabajos➡</a>
+    </section>
+
+    <main id="main">
+        <div class="botones">
+            <button onclick="update(-1)"><img src="/semanaDW/4_carrusel_de_imagenes/media/chevron-left-solid.svg" alt="flecha izquierda"></button>
+            <button onclick="update(1) "><img src="/semanaDW/4_carrusel_de_imagenes/media/chevron-right-solid.svg" alt="flecha derecha"></button>
+        </div>
+
+        <div id="Imágenes">
+            <img id="img" src="/semanaDW/4_carrusel_de_imagenes/media/1.png" alt="1">
+            <img id="img" src="/semanaDW/4_carrusel_de_imagenes/media/2.png" alt="2">
+            <img id="img" src="/semanaDW/4_carrusel_de_imagenes/media/3.png" alt="3">
+            <img id="img" src="/semanaDW/4_carrusel_de_imagenes/media/4.png" alt="4">
+            <img id="img" src="/semanaDW/4_carrusel_de_imagenes/media/5.png" alt="5">
+            <img id="img" src="/semanaDW/4_carrusel_de_imagenes/media/6.png" alt="6">
+            <img id="img" src="/semanaDW/4_carrusel_de_imagenes/media/7.png" alt="7">
+            <img id="img" src="/semanaDW/4_carrusel_de_imagenes/media/8.png" alt="8">
+            <img id="img" src="/semanaDW/4_carrusel_de_imagenes/media/9.png" alt="9">
+            <img id="img" src="/semanaDW/4_carrusel_de_imagenes/media/10.png" alt="10">
+            <img id="img" src="/semanaDW/4_carrusel_de_imagenes/media/11.png" alt="11">
+            <img id="img" src="/semanaDW/4_carrusel_de_imagenes/media/12.png" alt="12">
+        </div>
+    </main>
+
+    <header>
+        <h2 id="logo">LOGO</h2>
+
+        <div class="menu">
+            <a href="#header" id="inicio">Inicio</a>
+            <a href="#main">Imágenes</a>
+            <a href="#" >Contacto</a> 
+        </div>
+    </header>
+
+    <script src="/semanaDW/4_carrusel_de_imagenes/index.js"></script>
+</body>
+
+</html>

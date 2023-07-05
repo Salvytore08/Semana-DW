@@ -1,0 +1,139 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 97vw;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    width: 97vw;
+    height: 8vh;
+    padding-left: 2vw;
+    transition: 0.1s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    color: #e63d00;
+}
+
+.menu{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+header a{
+    text-decoration: none;
+    color: #252525;
+    padding: 1%;
+}
+
+header a:hover{
+    color: #ce3700;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+#boton_testimonios{
+    border-radius: 10px;
+    background-color: #708090;
+    padding: 1.5%;
+}
+
+main {
+    text-align: center;
+}
+
+#Imágenes{
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    gap: 4em;
+    max-width: calc(100% - 80px);
+    transition: all 1s;
+    scroll-behavior: smooth;
+    margin-bottom: 5%;
+}
+
+.botones { 
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    max-width: calc(100vw);
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    border: none;
+    height: 20vw;
+    width: 20vw;
+    max-height: 100px;
+    max-width: 100px;
+    padding: 2.5%;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgb(184, 184, 184);
+    transition: 0.5s;
+}
+
+img {
+    position: relative;
+    margin: auto;
+    object-fit: contain;
+    height: 100%;
+}
+
+#img{
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px 2px #25252542
+}
+
+#presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80%;
+}
+
+#she{
+    height: 310px;
+    border-radius: 100%;
+}
+
+#Trabajos{
+    color:#ce3700;
+}
+
+#Trabajos:hover{
+    color: #ad2e00;
+    background-color: rgba(128, 128, 128, 0.24);
+    border-radius: 5%;
+}
